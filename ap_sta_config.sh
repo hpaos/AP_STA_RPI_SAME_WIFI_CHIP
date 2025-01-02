@@ -249,6 +249,7 @@ hw_mode=${WIFI_MODE}
 channel=11
 wmm_enabled=0
 macaddr_acl=0
+ignore_broadcast_ssid=1
 auth_algs=1
 wpa=2PASSPHRASE
 $([ $AP_PASSPHRASE ] && echo "wpa_passphrase=${AP_PASSPHRASE}")
